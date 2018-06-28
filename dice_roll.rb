@@ -5,5 +5,5 @@
 def roll
   dice = [1, 2, 3, 4, 5, 6]
   i = rand(6)
-  number = 1 + dice[i]
+  number = dice[i]
 end
